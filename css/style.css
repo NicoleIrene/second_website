@@ -6,8 +6,11 @@
 body{
 	background-color: thistle ;
 	font-family: trebuchet ms;
-	text-align:center;
+	/*text-align:center;*/
 	padding:10px;
+}
+h1{
+	text-align:center;
 }
 nav ul{
 	overflow: auto;
@@ -36,4 +39,19 @@ nav a:hover {
 	color:white;
 	padding:25px;
 }
+.main-content{
+	padding:25px;
+	color:#544E61;
+	margin:20px;
+}
+.img-50{
+	width:50%;
+	display:block;
+	padding-top: 20px;
 
+}
+.img-51{
+	width:50%;
+	display:block;
+	padding-top: 20px;
+}
