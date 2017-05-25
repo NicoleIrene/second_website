@@ -1,0 +1,39 @@
+*{
+	box-sizing: border-box;
+	padding:0; 
+	margin:0;
+}
+body{
+	background-color: thistle ;
+	font-family: trebuchet ms;
+	text-align:center;
+	padding:10px;
+}
+nav ul{
+	overflow: auto;
+	list-style: none; /* this takes off the bullet points of li's in a ul */
+	background-color: white;
+}
+nav li{
+	padding:10px;
+	float: left;
+	width: 33.33%;
+	
+}
+nav a {
+	color: #BCD8B7;
+	text-decoration: none;
+	font-size: 25px;
+	transition: .5s;
+}
+nav a:hover {
+	color: #D30C7B;
+}
+
+.header{
+	background-image: url("../images/galaxyphoto.jpeg");
+	background-size:cover;
+	color:white;
+	padding:25px;
+}
+
